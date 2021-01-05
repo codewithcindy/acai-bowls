@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: #e6f2ff;
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+  color: #333;
+  margin: 2rem;
+}
+
+/* HEADER */
+.header {
+  padding-bottom: 2rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.logo-img {
+  width: 50px;
+}
+
+.nav {
+  transition: background-color 0.5s;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #4d81b4;
+}
+
+.scrolled {
+  background-color: #fff;
+}
+
+.nav-fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 1000px;
+  height: 350px;
+}
+
+.section-1::before {
+  content: "";
+  background-image: url("img/hero-img.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  border: 5px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.btn {
+  background: linear-gradient(170deg, #b3d9ff, #80bfff);
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+}
+
+.btn:hover {
+  background: #80bfff;
+}
+
+.btn-order {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-order a {
+  color: #000;
+  text-decoration: none;
+}
+
+.section-2 {
+  margin: 3rem;
+}
+
+/* INFO TABS */
+.about__tab-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about__tab {
+  margin: 0 1rem;
+  transform: translateY(40%);
+  transition: transform 0.7s;
+}
+
+.about__tab-1 {
+  margin-left: 3rem;
+}
+
+.about__tab-active {
+  transform: translateY(20%);
+}
+
+.about__content {
+  display: none;
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  height: 8rem;
+  border-bottom: 2px solid rgb(211, 206, 206);
+}
+
+.about__content-active {
+  display: block;
+}

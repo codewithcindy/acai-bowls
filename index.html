@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Custom Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Acai Bowls</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img src="img/logo.jpg" class="logo-img" alt="" />
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Order Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-1">
+      <button class="btn btn-order"><a href="#">ORDER ONLINE</a></button>
+    </section>
+
+    <section class="section-2">
+      <div class="about__tab-container">
+        <button
+          class="btn about__tab about__tab-1 btn__tab-active"
+          data-tab="1"
+        >
+          About Us
+        </button>
+        <button class="btn about__tab about__tab-2" data-tab="2">
+          Our Mission
+        </button>
+        <button class="btn about__tab about__tab-3" data-tab="3">
+          Our Ingredients
+        </button>
+      </div>
+
+      <div class="about__content about__content-1 about__content-active">
+        <h4>About Us</h4>
+        <p>Opened our first location in 2017.</p>
+      </div>
+
+      <div class="about__content about__content-2">
+        <h4>Our Mission</h4>
+        <p>Striving to make delicious, healthy bowls.</p>
+      </div>
+
+      <div class="about__content about__content-3">
+        <h4>Our Ingredients</h4>
+        <p>We make superfood bowls using only vegan ingredients.</p>
+      </div>
+    </section>
+
+    <footer class="footer"></footer>
+    <div></div>
+    <script src="script.js"></script>
+  </body>
+</html>
