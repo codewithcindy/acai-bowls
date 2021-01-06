@@ -15,7 +15,6 @@ body {
 
 /* HEADER */
 .header {
-  padding-bottom: 2rem;
 }
 
 .logo-container {
@@ -31,6 +30,7 @@ body {
 
 .nav {
   transition: background-color 0.5s;
+  padding: 1rem 0;
 }
 
 .nav-list {
@@ -38,7 +38,6 @@ body {
   list-style-type: none;
   justify-content: center;
   text-transform: uppercase;
-  padding: 1rem 0;
 }
 
 .nav-item {
@@ -52,10 +51,6 @@ body {
 
 .nav-link:hover {
   color: #4d81b4;
-}
-
-.scrolled {
-  background-color: #fff;
 }
 
 .nav-fixed-top {
@@ -89,6 +84,7 @@ body {
   bottom: 0;
   left: 0;
   opacity: 0.7;
+  margin: 1rem;
 }
 
 .btn {
